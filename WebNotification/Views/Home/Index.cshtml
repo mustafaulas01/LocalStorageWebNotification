@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<script>
+
+    var order = "TS1289678980";
+    var stkey="notification-status"+order;
+    if("Notification" in window){
+      
+        if(Notification.permission ==="granted"){
+            const status = localStorage.getItem(stkey);
+            if (status !== "shown") {
+                notify();
+                localStorage.setItem(stkey, "shown");
+            }
+
+       
+        }
+        else {
+
+            Notification.requestPermission().then((res)=>{
+                if(res ==="granted") {
+                              
+                }
+                else if(res === "denied") {
+                    console.log("Notification izini red edildi");
+                }
+
+                else if (res === "default") {
+                    console.log("Notification izini daha verilmedi");
+                }
+            })
+
+            }
+        }
+
+
+    else {
+        console.error("hayır desteklemiyor.")
+    }
+
+    function notify() {
+       
+        const notification=   new Notification("New Order",{
+            body:"New Order has been get: "+order,
+            icon:"./image/dogo.png",
+            vibrate:[200,100,200]
+
+        });
+
+       notification.addEventListener('click',()=>{
+            window.open("https://dogostore.com/srv/admin/order/order/index");
+
+       })
+    }
+
+</script>
