@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musta\\OneDrive\\Masaüstü\\Visual Studio Pojelerim\\WebNotification\\WebNotification\\WebNotification.csproj": {}
+    "C:\\Users\\musta\\OneDrive\\Belgeler\\GitHub\\LocalStorageWebNotification\\WebNotification\\WebNotification.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musta\\OneDrive\\Masaüstü\\Visual Studio Pojelerim\\WebNotification\\WebNotification\\WebNotification.csproj": {
+    "C:\\Users\\musta\\OneDrive\\Belgeler\\GitHub\\LocalStorageWebNotification\\WebNotification\\WebNotification.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Visual Studio Pojelerim\\WebNotification\\WebNotification\\WebNotification.csproj",
+        "projectUniqueName": "C:\\Users\\musta\\OneDrive\\Belgeler\\GitHub\\LocalStorageWebNotification\\WebNotification\\WebNotification.csproj",
         "projectName": "WebNotification",
-        "projectPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Visual Studio Pojelerim\\WebNotification\\WebNotification\\WebNotification.csproj",
+        "projectPath": "C:\\Users\\musta\\OneDrive\\Belgeler\\GitHub\\LocalStorageWebNotification\\WebNotification\\WebNotification.csproj",
         "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Visual Studio Pojelerim\\WebNotification\\WebNotification\\obj\\",
+        "outputPath": "C:\\Users\\musta\\OneDrive\\Belgeler\\GitHub\\LocalStorageWebNotification\\WebNotification\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
